@@ -1,0 +1,13 @@
+.erreur
+{
+	color: white;
+	background-color: red;
+}
+
+#form
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
