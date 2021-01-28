@@ -17,7 +17,7 @@
 		return 0;
 	}
 
-	// 1. On récupère les paramètres
+	// 1. On recupere les parametres
 	session_start();
 
 	if(!isset($_POST['pseudo']) || strlen($_POST['pseudo'])<3)
@@ -56,6 +56,6 @@
 	$_SESSION['tab_pseudo'] = $tab_pseudo;
 
 
-	// 3. On va signaler que tout a fonctionné correctement
+	// 3. On va signaler que tout a fonctionnï¿½ correctement
 	echo "OK";
 ?>
